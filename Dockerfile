@@ -8,6 +8,7 @@ COPY . .
 
 # Install Flask
 RUN pip install -r requirements.txt
+RUN pip install werkzeug --upgrade
 
 # Expose the required port
 EXPOSE 8080
