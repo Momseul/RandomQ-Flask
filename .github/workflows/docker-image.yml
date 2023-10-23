@@ -44,10 +44,10 @@ jobs:
 
     - name: Build the Docker image 
 
-      run: docker build . --file Dockerfile --tag momseul/RandomQ-Flask:latest 
+      run: docker build . --file Dockerfile --tag momseul/express-randomquotes:latest 
 
        
 
     - name: Docker Push 
 
-      run: docker push momseul/express-randomquotes 
+      run: docker push momseul/express-randomquotes
